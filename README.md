@@ -7,6 +7,7 @@ Welcome to my personal portfolio website! This platform showcases my skills, pro
 ---
 
 ## 🧑‍💻 About Me
+---
 
 I completed my Bachelor of Engineering in Computer Science in 2024 from a tier-3 college — not from IIT or NIT, and I haven’t worked at Google, Microsoft, or any FAANG company (yet!). But I bring the same hunger to learn, the same obsession with clean code, and a deep passion for building impactful software.
 
