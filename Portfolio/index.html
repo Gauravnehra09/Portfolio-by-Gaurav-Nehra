@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav_Nehra_Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/674c0d880f.js" crossorigin="anonymous"></script>
+  
+  </head>
+  <body>
+<!-- ---------------------------------------------------Header-------------------------------------------------->
+    <div id="header">
+      <div class="container">
+
+        <nav>
+          <img src="/Images/logo1.png" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p><span>Front-end</span> Developer</p>
+          <h1>Hi, I'm <span>Gaurav</span> <br>Nehra From India</h1>
+        </div>
+
+      </div>
+    </div>
+
+       <!-- --------------------------------------------------------ABOUT ME------------------------------------------------------- -->
+<main>
+    <div id="about">
+   <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="/Images/m.jpg" alt="Gaurav'Image">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About <span>Me</span></h1>
+            <p>As a B.E student from Chandigarh University, I am an analytical and diligent team player with strong problem-solving skills. Seeking an
+               opportunity to grow my technical skills in a reputable product-based company, I am confident in my ability to excel in this role based on my
+               academic achievements and extracurricular involvement.</p>     
+         <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+            <li><span>Web Development</span><br><p>HTML , CSS , JavaScript , Boot-Strap , React.</p></li>
+            <li><span>Software Development</span><br><p>C++ , Data Structure , Python , MS-Excel.</p></li>
+            <li><span>Database Development</span><br><p>MySQL , DBMS. </p></li>
+
+             </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+            <li><span>CodSoft</span><br><p>Designing Web App Interfaces</p></li>
+            <li><span>House Of Pico</span><br><p>Designing Website Interfaces</p></li>
+           
+             </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+            <li><span>2020-2024</span><br><p>B.E from Chandigarh University</p></li>
+            <li><span>2018-2019</span><br><p>12th Standard from The Heights Sr Sec School Jhajjar (Haryana)</p></li>
+            <li><span>2016-2017</span><br><p>10th Standard from The Heights Sr Sec School Jhajjar (Haryana)</p></li>
+             </ul>
+            </div>
+
+          </div>
+    </div>
+   </div>
+    </div>
+
+    <!-- -------------------------------------------------------Services---------------------------------------------------------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+
+<div>
+  <i class="fa-solid fa-code"></i>
+  <h2>Web Developer</h2>
+  <p>As a front-end developer, I provide services like building responsive websites using HTML, CSS, JavaScript and React. I focus on creating clean, visually appealing designs that work across all devices and browsers. I also optimize website performance for faster load times and better user experience. Additionally, I work with APIs, develop interactive single-page applications, and offer ongoing maintenance to keep websites updated and running smoothly.</p>
+  <a href="#">Learn more</a> 
+</div>
+
+<div>
+  <i class="fa-solid fa-crop-simple"></i>
+  <h2>Software Developer</h2>
+  <p>
+    As a software developer, I offer services that include designing and building scalable applications using various programming languages and technologies. I develop clean, efficient code, ensuring that applications are robust, secure, and optimized for performance</p>
+  <a href="#">Learn more</a> 
+</div>
+
+<div>
+  <i class="fa-regular fa-file-code"></i>
+  <h2>Database Developer </h2>
+  <p>As a Database Developer, I specialize in designing, implementing, and managing databases using MySQL. I create efficient database structures that ensure data integrity, scalability, and performance. My work involves writing optimized SQL queries, managing indexes, and ensuring proper normalization for efficient data storage and retrieval.</p>
+  <a href="#services">Learn more</a> 
+</div>
+    </div>
+  </div>
+</div>
+
+ <!-- ---------------------------------------------Portfolio--------------------------------------------  -->
+
+ <div id="portfolio">
+<div class="container">
+<h1 class="sub-title">My Work</h1>
+<div class="work-list">
+
+<div class="work">
+  <img src="/Images/m.jpg">
+  <div class="layer">
+    <h3>Social Media App</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, animi.</p>
+  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+  </div>
+</div>
+
+<div class="work">
+  <img src="/Images/m.jpg">
+  <div class="layer">
+    <h3>Whatsapp App</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, animi.</p>
+  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+  </div>
+</div>
+
+<div class="work">
+  <img src="/Images/m.jpg">
+  <div class="layer">
+    <h3>Media App</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, animi.</p>
+  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+  </div>
+</div>
+</div>
+<a href="#" class="btn">See more</a>
+</div>
+</div>
+<!-- -----------------------------------------Contact Us------------------------------------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+
+<div class="contact-left">
+  <h1 class="sub-title">Contact Us</h1>
+  <p><i class="fa-solid fa-paper-plane"></i>gauravnehra98178@gmail.com</p>
+  <p><i class="fa-solid fa-square-phone"></i>+91 9817897780</p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/gauravnehra-/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    
+    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=gauravnehra98178@gmail.com"
+        target="_blank" class="gmail_handle"><i class="fa-solid fa-square-envelope"></i></a>
+
+    <a href="https://github.com/Gauravnehra09"><i class="fa-brands fa-github"></i></a>
+
+  </div>
+  <a href="/Images/Gaurav_Nehra_Resume_.pdf" download class="btn btn2">Download Resume</a>
+</div>
+
+<div class="contact-right">
+<form name="submit-to-google-sheet">
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="slogan">
+<p>Your Smile <i class="fa-solid fa-face-laugh-beam"></i> Make Our Day <i class="fa-solid fa-heart"></i></p>
+</footer>
+</div>
+</div>
+
+<!-- -----------------------------------------------Script---------------------------------------------------- -->
+
+<!-- ---------------------- script for About me section -------------------- -->
+<script>
+
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<!-- -------------------------------- script for form and google sheet joining link------------ -->
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyPi00l_A9DE7jjuZxj3juZp-cefv-1v6dqO7Pdx635lHdFNTU8Bod0kJnSslfVIckO/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    msg.innerHTML = "Submitting...";
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully";
+        setTimeout(function(){
+          msg.innerHTML=""
+        },3000);
+        form.reset();
+      })
+      .catch(error => {
+        msg.innerHTML="Error in submission";
+        console.error('Error!', error.message);
+      });
+  });
+</script>
+
+<!-- ---------------------------------- script for sidemenu shows when using website in a phone----------------- -->
+
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+function openmenu(){
+  sidemeu.style.right="0";
+}
+function closemenu(){
+  sidemeu.style.right="-200px";
+}
+</script>
+
+  </body>
+</html>
