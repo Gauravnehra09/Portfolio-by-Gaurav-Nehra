@@ -29,6 +29,7 @@ I may not come from a big name — but I believe in building my name through act
 ---
 
 ## 💼 Experience
+
 ### 🖥️ House Of Pico:
 
 ✅  Optimized website performance by reducing image sizes and implementing lazy loading, decreasing page load times by 40% and improving overall user experience on mobile devices.
